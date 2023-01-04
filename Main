@@ -20,15 +20,10 @@ public class Main {
 		// Check if input is correct
 		boolean reRoll = true;
 		// Check if reRoll has been used
-		//boolean checkExit = false;
-		// Check if Exit option was ran
 		boolean attempt = true;
 		// Check if user can roll or reroll
 		
-		//int caseRoll = 1;
-		// Value if input = Roll
-		//int caseReRoll = 2;
-		// Value if input = ReRoll
+		
 		int caseValue = 0;
 		// Value
 		
@@ -97,12 +92,6 @@ public class Main {
 			
 			
 		} while (attempt != false);
-		
-		/*if (prize != 1) {
-			
-			System.out.println("No loot | you rolled a " + prize);
-			
-		}*/
 		
 		
 		
